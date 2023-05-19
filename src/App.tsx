@@ -5,6 +5,11 @@ import Book from "./Pages/Book";
 import Gallery from "./Pages/Gallery";
 import Homepage from "./Pages/Homepage";
 import { useState } from "react";
+import facebook from './Static/Pics/facebook.png'
+import mail from './Static/Pics/mail.png'
+import map from './Static/Pics/map.png'
+import phone from './Static/Pics/phone.png'
+
 
 function App() {
   const [burger, setBurger] = useState(false);
@@ -21,25 +26,54 @@ function App() {
 
             <nav>
               <ul className={burger ? "ulresponsive" : "ul"}>
-                <li  onClick={() => {
-                  setState(1)
-                }} className={state === 1 ? 'active' : ''}>
-                  <Link to="/">HOME</Link>
+                <li
+                  onClick={() => {
+                    setState(1);
+                  }}
+                  className={state === 1 ? "active" : "unactive"}
+                >
+                  <Link className={state === 1 ? "active" : "unactive"} to="/">
+                    HOME
+                  </Link>
                 </li>
-                <li onClick={() => {
-                  setState(2)
-                }} className={state === 2 ? 'active' : ''}>
-                  <Link to="/gallery">Gallery</Link>
+                <li
+                  onClick={() => {
+                    setState(2);
+                  }}
+                  className={state === 2 ? "active" : "unactive"}
+                >
+                  <Link
+                    className={state === 2 ? "active" : "unactive"}
+                    to="/gallery"
+                  >
+                    Gallery
+                  </Link>
                 </li>
-                <li onClick={() => {
-                  setState(3)
-                }} className={state === 3 ? 'active' : ''}>
-                  <Link to="/aboutus">About Us</Link>
+                <li
+                  onClick={() => {
+                    setState(3);
+                  }}
+                  className={state === 3 ? "active" : "unactive"}
+                >
+                  <Link
+                    className={state === 3 ? "active" : "unactive"}
+                    to="/aboutus"
+                  >
+                    About Us
+                  </Link>
                 </li>
-                <li onClick={() => {
-                  setState(4)
-                }} className={state === 4 ? 'active' : ''}>
-                  <Link to="/book">BOOK NOW</Link>
+                <li
+                  onClick={() => {
+                    setState(4);
+                  }}
+                  className={state === 4 ? "active" : "unactive"}
+                >
+                  <Link
+                    className={state === 4 ? "active" : "unactive"}
+                    to="/book"
+                  >
+                    BOOK NOW
+                  </Link>
                 </li>
               </ul>
             </nav>
@@ -62,6 +96,19 @@ function App() {
               <Route path="/book" element={<Book />} />
             </Routes>
           </div>
+          <footer>
+            <div className="foot">
+              <div className="socmedia">
+                   <p><img src={facebook}/> Reach us on Facebook</p>
+                   <p><img src={mail}/>  Reach us Via Email</p>
+
+              </div>
+              <div className="dets">
+              <p><img src={map}/> Petre Kavtaradze 1 turn #7, Tbilisi, Georgia</p>
+                   <p><img src={phone}/>  +995322440405</p>
+              </div>
+            </div>
+            </footer>
         </div>
       </div>
     </>
