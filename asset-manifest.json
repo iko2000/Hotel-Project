@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Hotel-Project/static/css/main.48bfffda.css",
-    "main.js": "/Hotel-Project/static/js/main.ccce48e2.js",
+    "main.css": "/Hotel-Project/static/css/main.3b60af45.css",
+    "main.js": "/Hotel-Project/static/js/main.752b3934.js",
     "static/media/FlorPersonalUseRegular-rgpoy.ttf": "/Hotel-Project/static/media/FlorPersonalUseRegular-rgpoy.9936cbc18430e076beef.ttf",
     "static/media/6.jpg": "/Hotel-Project/static/media/6.3bed4170afcf614fca1d.jpg",
     "static/media/image1.jpg": "/Hotel-Project/static/media/image1.7c8dc3da67348e6ee42d.jpg",
@@ -17,12 +17,14 @@
     "static/media/2.jpg": "/Hotel-Project/static/media/2.b480aa167ca4223dc486.jpg",
     "static/media/4.jpg": "/Hotel-Project/static/media/4.e75cb05cbbf64622016d.jpg",
     "static/media/1.jpg": "/Hotel-Project/static/media/1.b081f5e393a11720f6b2.jpg",
+    "static/media/next.JPG": "/Hotel-Project/static/media/next.949baab8dd594128c12a.JPG",
+    "static/media/prev.JPG": "/Hotel-Project/static/media/prev.5223c31f4d7a2a08b0f6.JPG",
     "index.html": "/Hotel-Project/index.html",
-    "main.48bfffda.css.map": "/Hotel-Project/static/css/main.48bfffda.css.map",
-    "main.ccce48e2.js.map": "/Hotel-Project/static/js/main.ccce48e2.js.map"
+    "main.3b60af45.css.map": "/Hotel-Project/static/css/main.3b60af45.css.map",
+    "main.752b3934.js.map": "/Hotel-Project/static/js/main.752b3934.js.map"
   },
   "entrypoints": [
-    "static/css/main.48bfffda.css",
-    "static/js/main.ccce48e2.js"
+    "static/css/main.3b60af45.css",
+    "static/js/main.752b3934.js"
   ]
 }
