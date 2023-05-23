@@ -1,3 +1,11 @@
+@font-face {
+  font-family: Scholary;
+  src: url("../Static/Fonts/ScholarlyAmbitionRegular-PKdwB.ttf");
+}
+@font-face {
+  font-family: "Satiric";
+  src: url("../Static/Fonts/SF\ Atarian\ System\ Bold.ttf");
+}
 .booking {
   width: 100%;
   height: 100%;
@@ -29,7 +37,11 @@ h3 {
 .name {
   width: 100%;
   height: 8%;
-  border: 1px dashed black;
+  border-top: 1px dashed black;
+  border-left: 1px dashed black;
+  border-right: 1px dashed black;
+
+
 }
 
 .name div {
@@ -51,7 +63,9 @@ h3 {
 .email {
   width: 100%;
   height: 7%;
-  border: 1px dashed black;
+  border-left: 1px dashed black;
+  border-right: 1px dashed black;
+
 }
 .email div {
   width: 100%;
@@ -69,7 +83,11 @@ h3 {
 .dates {
   width: 100%;
   height: 13%;
-  border: 1px dashed black;
+  border-left: 1px dashed black;
+  border-right: 1px dashed black;
+  border-bottom: 1px dashed black;
+
+
 
   display: flex;
 }
@@ -168,6 +186,7 @@ h3 {
   background-color: black;
   color: white;
   border-radius: 10px;
+  font-family: Scholary;
 }
 
 .btnbox button:active {
@@ -196,7 +215,7 @@ p {
 
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   flex-direction: column;
   gap: 10px;
 }
@@ -206,8 +225,9 @@ p {
 }
 
 .pays span {
-  font-size: 15px;
+  font-size: 25px;
   color: black;
+  margin-left: 10px;
 }
 .pays label {
   font-size: 15px;
@@ -219,12 +239,10 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
+  
 }
 
-.total p {
-  font-size: 20px;
-  color: red;
-}
+
 
 .pricing {
   font-size: 20px;
@@ -232,14 +250,24 @@ p {
 
 .datesp {
   font-size: 20px;
+  font-family: bold;
+  color: blueviolet;
 }
 .bill p {
   font-size: 15px;
+  font-family: "Satiric";
+}
+.total p {
+  font-size: 30px;
+
+  color: red;
 }
 .guesterror {
   color: red;
 }
-
+input:active {
+  color: rgb(144, 10, 10);
+}
 @media only screen and (max-width: 800px) {
   .body {
     height: 180vh;

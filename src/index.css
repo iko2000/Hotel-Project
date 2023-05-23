@@ -21,7 +21,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   /* background-color: var(--secondary-color); */
-  background-image: url('./Static/Pics/STARS.jpg');
+  background-image: url("./Static/Pics/STARS.jpg");
 }
 
 code {
@@ -35,15 +35,11 @@ code {
   display: flex;
   justify-content: center;
   padding-top: 1px;
-  
- 
 }
 
 .Appdiv {
   min-width: 1000px;
   height: 98%;
- 
- 
 }
 
 header {
@@ -53,7 +49,7 @@ header {
   font-family: Headerfonts;
   /* background-color: var(--primary-color); */
   background-color: white;
- border-radius: 20%;
+  border-radius: 20%;
   display: flex;
 }
 
@@ -75,14 +71,12 @@ nav {
   align-items: center;
   width: 20%;
   font-family: Mojo;
-  color: rgb(64, 64, 99);
+  color: rgb(54, 54, 158);
 }
 
 h1 {
   font-size: 20px;
 }
-
-
 
 .ul {
   width: 60%;
@@ -103,7 +97,7 @@ a {
   color: red;
 }
 .unactive {
-  color: purple;
+  color: rgb(253, 0, 0);
   font-size: 18px;
   list-style: none;
 }
@@ -117,7 +111,7 @@ a {
   margin-top: 110px;
   transition: 2ms;
   z-index: 3;
-  background-color: rgb(66, 2, 2);
+  background-color: rgb(245, 245, 245);
   border-radius: 10px;
   color: white;
   padding-inline-start: 0px;
@@ -130,7 +124,6 @@ a {
 .body {
   width: 100%;
   height: 90%;
-
 }
 
 .homepage {
@@ -207,6 +200,10 @@ footer {
 }
 
 @media only screen and (max-width: 982px) {
+  .homepage {
+    background-image: url("./Static/Pics/pexels-bruno-maceiras-2467558.jpg");
+    background-position: center;
+  }
   body {
     background-color: lightblue;
   }
