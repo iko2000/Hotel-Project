@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Hotel-Project/static/css/main.3b60af45.css",
-    "main.js": "/Hotel-Project/static/js/main.752b3934.js",
+    "main.css": "/Hotel-Project/static/css/main.8108dd10.css",
+    "main.js": "/Hotel-Project/static/js/main.dcf20784.js",
     "static/media/FlorPersonalUseRegular-rgpoy.ttf": "/Hotel-Project/static/media/FlorPersonalUseRegular-rgpoy.9936cbc18430e076beef.ttf",
     "static/media/6.jpg": "/Hotel-Project/static/media/6.3bed4170afcf614fca1d.jpg",
     "static/media/image1.jpg": "/Hotel-Project/static/media/image1.7c8dc3da67348e6ee42d.jpg",
@@ -9,6 +9,7 @@
     "static/media/11.jpg": "/Hotel-Project/static/media/11.a4b425175e0beb1b4b20.jpg",
     "static/media/9.jpg": "/Hotel-Project/static/media/9.7f818d78cecde2e0035f.jpg",
     "static/media/8.jpg": "/Hotel-Project/static/media/8.ed7d47e926343ca97ca0.jpg",
+    "static/media/STARS.jpg": "/Hotel-Project/static/media/STARS.6baa6a8da136455489da.jpg",
     "static/media/5.jpg": "/Hotel-Project/static/media/5.2bb4f244228586ab6163.jpg",
     "static/media/3.jpg": "/Hotel-Project/static/media/3.07ffdfb6280f7bb59605.jpg",
     "static/media/7.jpg": "/Hotel-Project/static/media/7.2a898a5aac05b3ec5824.jpg",
@@ -20,11 +21,11 @@
     "static/media/next.JPG": "/Hotel-Project/static/media/next.949baab8dd594128c12a.JPG",
     "static/media/prev.JPG": "/Hotel-Project/static/media/prev.5223c31f4d7a2a08b0f6.JPG",
     "index.html": "/Hotel-Project/index.html",
-    "main.3b60af45.css.map": "/Hotel-Project/static/css/main.3b60af45.css.map",
-    "main.752b3934.js.map": "/Hotel-Project/static/js/main.752b3934.js.map"
+    "main.8108dd10.css.map": "/Hotel-Project/static/css/main.8108dd10.css.map",
+    "main.dcf20784.js.map": "/Hotel-Project/static/js/main.dcf20784.js.map"
   },
   "entrypoints": [
-    "static/css/main.3b60af45.css",
-    "static/js/main.752b3934.js"
+    "static/css/main.8108dd10.css",
+    "static/js/main.dcf20784.js"
   ]
 }
