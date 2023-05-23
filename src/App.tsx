@@ -10,10 +10,17 @@ import mail from './Static/Pics/mail.png'
 import map from './Static/Pics/map.png'
 import phone from './Static/Pics/phone.png'
 
+import photo1 from "./Static/Pics/1.jpg"
+import photo2 from "./Static/Pics/2.jpg"
+import photo3 from "./Static/Pics/3.jpg"
+
+
+
 
 function App() {
   const [burger, setBurger] = useState(false);
   const [state, setState] = useState(1);
+
 
   return (
     <>

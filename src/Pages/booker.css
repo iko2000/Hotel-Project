@@ -1,0 +1,274 @@
+.booking {
+  width: 100%;
+  height: 100%;
+
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  width: 60%;
+  height: 100%;
+}
+
+.header {
+  width: 100%;
+  height: 6%;
+
+  display: flex;
+  justify-content: flex-start;
+}
+h3 {
+  font-size: 1.5em;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+}
+
+.name {
+  width: 100%;
+  height: 8%;
+  border: 1px dashed black;
+}
+
+.name div {
+  width: 100%;
+  height: 50%;
+}
+
+.name div:nth-child(2) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.nameinput {
+  width: 150px;
+}
+
+.email {
+  width: 100%;
+  height: 7%;
+  border: 1px dashed black;
+}
+.email div {
+  width: 100%;
+  height: 50%;
+}
+.email div:nth-child(2) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.emailinput {
+  width: 330px;
+}
+
+.dates {
+  width: 100%;
+  height: 13%;
+  border: 1px dashed black;
+
+  display: flex;
+}
+
+.checkin {
+  width: 50%;
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  gap: 10%;
+  justify-content: center;
+  align-items: center;
+}
+
+.checkout {
+  width: 50%;
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  gap: 10%;
+  justify-content: center;
+  align-items: center;
+}
+
+.roomtype {
+  width: 100%;
+  height: 15%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.roomtype label {
+  height: 20px;
+}
+.room {
+  width: 100%;
+  height: 60%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.room input {
+  width: 50px;
+}
+
+.numofguests {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.checkintime {
+  width: 100%;
+  height: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 5px;
+}
+.spec {
+  width: 100%;
+  height: 15%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 5px;
+}
+.spec input {
+  width: 70%;
+  height: 60%;
+}
+.btnbox {
+  width: 100%;
+  height: 10%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btnbox button {
+  width: 150px;
+  height: 50px;
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+}
+
+.btnbox button:active {
+  position: relative;
+  top: 10px;
+  color: yellow;
+}
+
+.bill {
+  width: 300px;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  margin-left: 20px;
+}
+p {
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+}
+.pays {
+  width: 100%;
+  height: 80%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+.pays {
+  font-size: 20px;
+  color: blue;
+}
+
+.pays span {
+  font-size: 15px;
+  color: black;
+}
+.pays label {
+  font-size: 15px;
+}
+.total {
+  width: 100%;
+  height: 20%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.total p {
+  font-size: 20px;
+  color: red;
+}
+
+.pricing {
+  font-size: 20px;
+}
+
+.datesp {
+  font-size: 20px;
+}
+.bill p {
+  font-size: 15px;
+}
+.guesterror {
+  color: red;
+}
+
+@media only screen and (max-width: 800px) {
+  .body {
+    height: 180vh;
+    margin-top: 10px;
+  }
+  .booking {
+    flex-direction: column;
+    gap: 10px;
+    height: 180vh;
+  }
+  .box {
+    width: 98%;
+    height: 100vh;
+  }
+  .bill {
+    height: 80vh;
+  }
+  .emailinput {
+    width: 200px;
+  }
+  .nameinput {
+    width: 80px;
+  }
+  .btnbox button {
+    width: 120px;
+    height: 40px;
+    margin-top: 15px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+  }
+}

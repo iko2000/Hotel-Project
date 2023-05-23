@@ -20,7 +20,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: var(--secondary-color);
+  /* background-color: var(--secondary-color); */
+  background-image: url('./Static/Pics/STARS.jpg');
 }
 
 code {
@@ -34,12 +35,15 @@ code {
   display: flex;
   justify-content: center;
   padding-top: 1px;
-  background-color: var(--secondary-color);
+  
+ 
 }
 
 .Appdiv {
   min-width: 1000px;
   height: 98%;
+ 
+ 
 }
 
 header {
@@ -49,7 +53,7 @@ header {
   font-family: Headerfonts;
   /* background-color: var(--primary-color); */
   background-color: white;
-
+ border-radius: 20%;
   display: flex;
 }
 
@@ -77,6 +81,9 @@ nav {
 h1 {
   font-size: 20px;
 }
+
+
+
 .ul {
   width: 60%;
   height: 100%;
@@ -115,7 +122,6 @@ a {
   color: white;
   padding-inline-start: 0px;
   padding: 5px;
-
 }
 a {
   text-decoration: none;
@@ -124,6 +130,7 @@ a {
 .body {
   width: 100%;
   height: 90%;
+
 }
 
 .homepage {
@@ -135,12 +142,12 @@ a {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  border-radius: 10%;
 }
 
 footer {
   min-width: 1000px;
   height: 200px;
-  background-color: var(--secondary-color);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -160,6 +167,7 @@ footer {
   align-items: center;
   flex-direction: column;
   justify-content: center;
+  gap: 10%;
 }
 
 .socmedia p {
@@ -169,8 +177,8 @@ footer {
   align-items: center;
   gap: 5px;
   color: white;
+  gap: 10%;
 }
-
 
 .dets {
   width: 30%;
@@ -179,13 +187,14 @@ footer {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  gap: 10%;
 }
 .dets p {
   width: 100%;
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  gap: 5px;
+  gap: 10%;
   color: white;
 }
 .dets img {

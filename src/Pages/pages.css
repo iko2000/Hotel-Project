@@ -24,10 +24,26 @@
   font-weight: bold;
 }
 
+@keyframes mover {
+  0% {
+    color: red; scale: 1.0;
+  }
+  25% {
+    color: yellow; scale: 1.2;
+  }
+  50% {
+    color: blue; scale: 1.5;
+  }
+  100% {
+    color: green; scale: 1.0;
+  }
+}
+
 h2 {
   width: 150px;
   font-size: 15px;
   transition: 25s;
+  animation: mover 12s infinite;
 }
 
 h2:hover {
@@ -45,21 +61,26 @@ h2:hover {
   align-items: center;
   background-color: #2894b3;
   height: 100%;
+  border-radius: 10%;
 }
 
 .gallerybox {
   min-width: 550px;
   height: 500px;
+
+  
 }
 
 .pic {
   width: 100%;
   height: 80%;
+  
 }
 
 .pic img {
   width: 100%;
   height: 100%;
+  border-radius: 10%;
 }
 
 .pic img:hover {
