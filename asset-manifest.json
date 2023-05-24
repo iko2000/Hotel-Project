@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Hotel-Project/static/css/main.234d5c03.css",
-    "main.js": "/Hotel-Project/static/js/main.fef3c409.js",
+    "main.css": "/Hotel-Project/static/css/main.cf08e0a1.css",
+    "main.js": "/Hotel-Project/static/js/main.7928e0fe.js",
     "static/media/pexels-bruno-maceiras-2467558.jpg": "/Hotel-Project/static/media/pexels-bruno-maceiras-2467558.802e2391a6e4531dc8ae.jpg",
     "static/media/FlorPersonalUseRegular-rgpoy.ttf": "/Hotel-Project/static/media/FlorPersonalUseRegular-rgpoy.9936cbc18430e076beef.ttf",
     "static/media/6.jpg": "/Hotel-Project/static/media/6.3bed4170afcf614fca1d.jpg",
@@ -24,11 +24,11 @@
     "static/media/next.JPG": "/Hotel-Project/static/media/next.949baab8dd594128c12a.JPG",
     "static/media/prev.JPG": "/Hotel-Project/static/media/prev.5223c31f4d7a2a08b0f6.JPG",
     "index.html": "/Hotel-Project/index.html",
-    "main.234d5c03.css.map": "/Hotel-Project/static/css/main.234d5c03.css.map",
-    "main.fef3c409.js.map": "/Hotel-Project/static/js/main.fef3c409.js.map"
+    "main.cf08e0a1.css.map": "/Hotel-Project/static/css/main.cf08e0a1.css.map",
+    "main.7928e0fe.js.map": "/Hotel-Project/static/js/main.7928e0fe.js.map"
   },
   "entrypoints": [
-    "static/css/main.234d5c03.css",
-    "static/js/main.fef3c409.js"
+    "static/css/main.cf08e0a1.css",
+    "static/js/main.7928e0fe.js"
   ]
 }
