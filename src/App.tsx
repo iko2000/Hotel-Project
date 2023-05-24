@@ -4,7 +4,7 @@ import Aboutpage from "./Pages/Aboutus";
 import Book from "./Pages/Book";
 import Gallery from "./Pages/Gallery";
 import Homepage from "./Pages/Homepage";
-import { useState } from "react";
+import { useState , useContext, createContext} from "react";
 import facebook from './Static/Pics/facebook.png'
 import mail from './Static/Pics/mail.png'
 import map from './Static/Pics/map.png'
@@ -17,12 +17,14 @@ import photo3 from "./Static/Pics/3.jpg"
 
 
 
+
 function App() {
+  
   const [burger, setBurger] = useState(false);
   const [state, setState] = useState(1);
 
-
   return (
+
     <>
       <div className="App">
         <div className="Appdiv">
@@ -103,6 +105,7 @@ function App() {
               <Route path="/book" element={<Book />} />
             </Routes>
           </div>
+         
           <footer>
             <div className="foot">
               <div className="socmedia">
@@ -116,6 +119,7 @@ function App() {
               </div>
             </div>
             </footer>
+          
         </div>
       </div>
     </>

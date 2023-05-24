@@ -123,13 +123,12 @@ a {
 
 .body {
   width: 100%;
-  height: 90%;
 }
 
 .homepage {
   background-image: url("./Static/Pics/image1.jpg");
   background-position: center;
-  height: 100%;
+  height: 100vh;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -138,6 +137,9 @@ a {
   border-radius: 10%;
 }
 
+.ft {
+  display: none;
+}
 footer {
   min-width: 1000px;
   height: 200px;

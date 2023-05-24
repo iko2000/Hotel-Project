@@ -1,6 +1,7 @@
 import "./booker.css";
-import { useState, useEffect } from "react";
+import { useState, useEffect, useContext, createContext } from "react";
 import { isRegExp } from "util/types";
+
 
 export default function Book() {
   const [name, setName] = useState("");
@@ -16,6 +17,9 @@ export default function Book() {
   const [nameerror, setNamerror] = useState(false);
   const [error, setError] = useState<any>(false);
   const [day, setDay] = useState(1);
+  
+  const [foo, setFoo] = useState<any>(false);
+  const value = createContext(foo);
 
   const dates = new Date();
 
@@ -28,8 +32,12 @@ export default function Book() {
   let currentDate = `${currentYear}-${currentMonth}-${currentDay}`;
 
   function datediff(first:any, second:any) {        
+
+
     return Math.round((second - first) / (1000 * 60 * 60 * 24));
 }
+     
+  
   useEffect(() => {
     const diffInMs   = new Date(date1) - new Date(date)
     const diffInDays = diffInMs / (1000 * 60 * 60 * 24)

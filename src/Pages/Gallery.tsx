@@ -11,6 +11,7 @@ import img9 from "../Static/Pics/9.jpg";
 import img10 from "../Static/Pics/10.jpg";
 import img11 from "../Static/Pics/11.jpg";
 import img12 from "../Static/Pics/12.jpg";
+import './gall.css';
 import next from '../Static/Pics/next.JPG'
 import prev from '../Static/Pics/prev.JPG'
 
