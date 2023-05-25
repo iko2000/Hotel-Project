@@ -21,7 +21,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   /* background-color: var(--secondary-color); */
-  background-image: url("./Static/Pics/STARS.jpg");
+  /* background-image: url("./Static/Pics/STARS.jpg"); */
 }
 
 code {
@@ -48,7 +48,7 @@ header {
   border-bottom: 1pxs dashed black;
   font-family: Headerfonts;
   /* background-color: var(--primary-color); */
-  background-color: white;
+  /* background-color: white; */
   border-radius: 20%;
   display: flex;
 }
@@ -73,6 +73,8 @@ nav {
   font-family: Mojo;
   color: rgb(54, 54, 158);
 }
+
+
 
 h1 {
   font-size: 20px;
@@ -126,7 +128,7 @@ a {
 }
 
 .homepage {
-  background-image: url("./Static/Pics/image1.jpg");
+  /* background-image: url("./Static/Pics/image1.jpg"); */
   background-position: center;
   height: 100vh;
   width: 100%;
@@ -135,7 +137,18 @@ a {
   justify-content: center;
   align-items: center;
   border-radius: 10%;
+  animation: slider 16s infinite;
 }
+
+@keyframes slider {
+  0%   {background-image: url("./Static/Pics/2.jpg")}
+  25%  {background-image: url("./Static/Pics/6.jpg")}
+  50%  {background-image: url("./Static/Pics/4.jpg")}
+  75% {background-image: url("./Static/Pics/5.jpg")}
+  100% {background-image: url("./Static/Pics/2.jpg")}
+
+}
+
 
 .ft {
   display: none;
@@ -146,6 +159,7 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: gray;
 }
 .foot {
   width: 80%;
@@ -171,7 +185,7 @@ footer {
   justify-content: flex-start;
   align-items: center;
   gap: 5px;
-  color: white;
+  color: black;
   gap: 10%;
 }
 
@@ -190,7 +204,8 @@ footer {
   justify-content: flex-start;
   align-items: center;
   gap: 10%;
-  color: white;
+  color: black;
+ 
 }
 .dets img {
   width: 20px;

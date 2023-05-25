@@ -82,7 +82,7 @@ h2:hover {
 }
 
 .shortinfo p {
-  color: white;
+  color: black;
 }
 
 .details {
@@ -91,7 +91,7 @@ h2:hover {
 
   display: flex;
   gap: 20%;
-  color: white;
+  color: black;
 }
 
 .contact {
