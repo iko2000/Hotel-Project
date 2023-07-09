@@ -3,13 +3,26 @@
   justify-content: center;
   align-items: center;
   background-color: #ffffff;
-  height: 100vh;
+  height: 110vh;
   border-radius: 10%;
 }
 
 .gallerybox {
   min-width: 550px;
   height: 500px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.gallerypics {
+  width: 100%;
+  height: 200px;
+
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 .pic {

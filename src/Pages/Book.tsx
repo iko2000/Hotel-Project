@@ -1,7 +1,5 @@
 import "./booker.css";
-import { useState, useEffect, useContext, createContext } from "react";
-import { isRegExp } from "util/types";
-
+import { useState, useEffect, createContext } from "react";
 
 export default function Book() {
   const [name, setName] = useState("");
@@ -13,13 +11,10 @@ export default function Book() {
   const [guest, setGuest] = useState<any>(1);
   const [total, setTotal] = useState(0);
   const [totalwithvat, setTotalwithvat] = useState(0);
-  const [email, setEmail] = useState('');
+  const [email, setEmail] = useState("");
   const [nameerror, setNamerror] = useState(false);
   const [error, setError] = useState<any>(false);
   const [day, setDay] = useState(1);
-  
-  const [foo, setFoo] = useState<any>(false);
-  const value = createContext(foo);
 
   const dates = new Date();
 
@@ -31,18 +26,15 @@ export default function Book() {
 
   let currentDate = `${currentYear}-${currentMonth}-${currentDay}`;
 
-  function datediff(first:any, second:any) {        
-
-
+  function datediff(first: any, second: any) {
     return Math.round((second - first) / (1000 * 60 * 60 * 24));
-}
-     
-  
+  }
+
   useEffect(() => {
-    const diffInMs   = new Date(date1) - new Date(date)
-    const diffInDays = diffInMs / (1000 * 60 * 60 * 24)
+    const diffInMs = new Date(date1) - new Date(date);
+    const diffInDays = diffInMs / (1000 * 60 * 60 * 24);
     setDay(diffInDays);
-  }, [date, date1])
+  }, [date, date1]);
 
   useEffect(() => {
     setTotal((delux * 220 + standard * 150) * day);
@@ -123,7 +115,11 @@ export default function Book() {
             />{" "}
           </div>
         </div>
-        {nameerror ? <p style={{color: 'red', fontSize: '12px', marginLeft: "20px"}}>Name/Lastname only consists from Letters</p> : null}
+        {nameerror ? (
+          <p style={{ color: "red", fontSize: "12px", marginLeft: "20px" }}>
+            Name/Lastname only consists from Letters
+          </p>
+        ) : null}
         <div className="email">
           <div>
             {" "}
@@ -131,17 +127,24 @@ export default function Book() {
           </div>
           <div>
             {" "}
-            <input value={email}  pattern=".+@globex\.com" onChange={(e) =>{
-              const regex = /^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/;
-                setEmail(e.target.value)
-            }} required max={18} className="emailinput" placeholder="Email" />{" "}
+            <input
+              value={email}
+              pattern=".+@globex\.com"
+              onChange={(e) => {
+                const regex = /^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/;
+                setEmail(e.target.value);
+              }}
+              required
+              max={18}
+              className="emailinput"
+              placeholder="Email"
+            />{" "}
           </div>
         </div>
         <div className="dates">
           <div className="checkin">
             <label>Check IN:</label>
             <input
-              
               type="date"
               id="start"
               name="trip-start"
@@ -240,15 +243,14 @@ export default function Book() {
             Number of Guests: <span>{guest}</span>
           </p>
           <p>
-            Days: <span>{day ? day : '.....'}</span>
+            Days: <span>{day ? day : "....."}</span>
           </p>
           <p className="pricing">
-            Room's Price (18% VAT):{" "}
-            <span>{total ? total : '.....'} GEL</span>{" "}
+            Room's Price (18% VAT): <span>{total ? total : "....."} GEL</span>{" "}
           </p>
         </div>
         <div className="total">
-          <p>TOTAL: {totalwithvat ? totalwithvat : '.....'} GEL </p>
+          <p>TOTAL: {totalwithvat ? totalwithvat : "....."} GEL </p>
         </div>
       </div>
     </div>
