@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Hotel-Project/static/css/main.4ceef88c.css",
-    "main.js": "/Hotel-Project/static/js/main.7928e0fe.js",
+    "main.css": "/Hotel-Project/static/css/main.289d82ee.css",
+    "main.js": "/Hotel-Project/static/js/main.1e2fc9e8.js",
     "static/media/pexels-bruno-maceiras-2467558.jpg": "/Hotel-Project/static/media/pexels-bruno-maceiras-2467558.802e2391a6e4531dc8ae.jpg",
     "static/media/FlorPersonalUseRegular-rgpoy.ttf": "/Hotel-Project/static/media/FlorPersonalUseRegular-rgpoy.9936cbc18430e076beef.ttf",
     "static/media/6.jpg": "/Hotel-Project/static/media/6.3bed4170afcf614fca1d.jpg",
@@ -19,14 +19,13 @@
     "static/media/4.jpg": "/Hotel-Project/static/media/4.e75cb05cbbf64622016d.jpg",
     "static/media/1.jpg": "/Hotel-Project/static/media/1.b081f5e393a11720f6b2.jpg",
     "static/media/SF Atarian System Bold.ttf": "/Hotel-Project/static/media/SF Atarian System Bold.6b639403f1b807a63e1f.ttf",
-    "static/media/next.JPG": "/Hotel-Project/static/media/next.949baab8dd594128c12a.JPG",
-    "static/media/prev.JPG": "/Hotel-Project/static/media/prev.5223c31f4d7a2a08b0f6.JPG",
+    "static/media/booking.png": "/Hotel-Project/static/media/booking.7171b04d81682ad90048.png",
     "index.html": "/Hotel-Project/index.html",
-    "main.4ceef88c.css.map": "/Hotel-Project/static/css/main.4ceef88c.css.map",
-    "main.7928e0fe.js.map": "/Hotel-Project/static/js/main.7928e0fe.js.map"
+    "main.289d82ee.css.map": "/Hotel-Project/static/css/main.289d82ee.css.map",
+    "main.1e2fc9e8.js.map": "/Hotel-Project/static/js/main.1e2fc9e8.js.map"
   },
   "entrypoints": [
-    "static/css/main.4ceef88c.css",
-    "static/js/main.7928e0fe.js"
+    "static/css/main.289d82ee.css",
+    "static/js/main.1e2fc9e8.js"
   ]
 }
