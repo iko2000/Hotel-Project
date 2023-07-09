@@ -1,5 +1,5 @@
 import "./booker.css";
-import { useState, useEffect, createContext } from "react";
+import { useState, useEffect} from "react";
 
 export default function Book() {
   const [name, setName] = useState("");
@@ -25,13 +25,15 @@ export default function Book() {
   let currentYear = dates.getFullYear();
 
   let currentDate = `${currentYear}-${currentMonth}-${currentDay}`;
-
+  
   function datediff(first: any, second: any) {
     return Math.round((second - first) / (1000 * 60 * 60 * 24));
   }
 
+  console.log(datediff);
+
   useEffect(() => {
-    const diffInMs = new Date(date1) - new Date(date);
+    const diffInMs:any = new Date(date1) - new Date(date);
     const diffInDays = diffInMs / (1000 * 60 * 60 * 24);
     setDay(diffInDays);
   }, [date, date1]);
@@ -131,7 +133,8 @@ export default function Book() {
               value={email}
               pattern=".+@globex\.com"
               onChange={(e) => {
-                const regex = /^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/;
+                const regex = /^[\w-.]+@([\w-]+\.)+[\w-]{2,4}$/;
+                console.log(regex);
                 setEmail(e.target.value);
               }}
               required

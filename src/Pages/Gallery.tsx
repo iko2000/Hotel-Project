@@ -37,7 +37,7 @@ export default function Gallery() {
     <div className="maindiv">
       <div className="gallerybox">
         <div className="pic">
-          <img src={currentpic} />
+          <img alt="poto" src={currentpic} />
         </div>
         {/* <div className="btn">
           <button
@@ -61,7 +61,7 @@ export default function Gallery() {
         <div className="gallerypics">
           {pics.map((element) => {
             return (
-              <img onMouseEnter={() => {setCurrentpic(element)}} style={{ width: "50px", height: "50px" }} src={element} />
+              <img alt="poto" onMouseEnter={() => {setCurrentpic(element)}} style={{ width: "50px", height: "50px" }} src={element} />
             );
           })}
         </div>
